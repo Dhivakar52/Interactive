@@ -221,7 +221,7 @@ export function HealthcareServices({ onBack }: HealthcareServicesProps) {
           </div>
 
           <Tabs value={selectedTab} onValueChange={setSelectedTab} className="space-y-6">
-            <TabsList className="grid w-full grid-cols-6">
+            <TabsList className="grid w-full grid-cols-6 tabBg">
               <TabsTrigger value="overview">OVERVIEW</TabsTrigger>
               <TabsTrigger value="appointments">APPOINTMENTS</TabsTrigger>
               <TabsTrigger value="records">RECORDS</TabsTrigger>

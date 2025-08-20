@@ -168,7 +168,7 @@ export function TaxPortal({ onBack }: TaxPortalProps) {
           </div>
 
           <Tabs defaultValue="overview" className="space-y-6">
-            <TabsList className="grid w-full grid-cols-5">
+            <TabsList className="grid w-full grid-cols-5 tabBg">
               <TabsTrigger value="overview">OVERVIEW</TabsTrigger>
               <TabsTrigger value="filings">TAX FILINGS</TabsTrigger>
               <TabsTrigger value="documents">DOCUMENTS</TabsTrigger>

@@ -226,7 +226,7 @@ export function BusinessLicensing({ onBack }: BusinessLicensingProps) {
           </div>
 
           <Tabs value={selectedTab} onValueChange={setSelectedTab} className="space-y-6">
-            <TabsList className="grid w-full grid-cols-6">
+            <TabsList className="grid w-full grid-cols-6 tabBg">
               <TabsTrigger value="overview">OVERVIEW</TabsTrigger>
               <TabsTrigger value="licenses">MY LICENSES</TabsTrigger>
               <TabsTrigger value="applications">APPLICATIONS</TabsTrigger>
