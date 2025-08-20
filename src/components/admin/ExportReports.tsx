@@ -359,7 +359,7 @@ export function ExportReports() {
       </div>
 
       <Tabs defaultValue="templates" className="space-y-6">
-        <TabsList className="grid w-full grid-cols-4">
+        <TabsList className="grid w-full grid-cols-4 tabBg">
           <TabsTrigger value="templates">REPORT TEMPLATES</TabsTrigger>
           <TabsTrigger value="scheduled">SCHEDULED REPORTS</TabsTrigger>
           <TabsTrigger value="queue">EXPORT QUEUE</TabsTrigger>

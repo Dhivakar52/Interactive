@@ -309,7 +309,7 @@ export function SystemAlerts() {
       </div>
 
       <Tabs defaultValue="active" className="space-y-6">
-        <TabsList className="grid w-full grid-cols-3">
+        <TabsList className="grid w-full grid-cols-3 tabBg">
           <TabsTrigger value="active">ACTIVE ALERTS</TabsTrigger>
           <TabsTrigger value="rules">ALERT RULES</TabsTrigger>
           <TabsTrigger value="history">ALERT HISTORY</TabsTrigger>

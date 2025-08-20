@@ -287,7 +287,7 @@ export function SystemMonitoring() {
       </div>
 
       <Tabs defaultValue="infrastructure" className="space-y-6">
-        <TabsList className="grid w-full grid-cols-4">
+        <TabsList className="grid w-full grid-cols-4 tabBg">
           <TabsTrigger value="infrastructure">INFRASTRUCTURE</TabsTrigger>
           <TabsTrigger value="performance">PERFORMANCE</TabsTrigger>
           <TabsTrigger value="alerts">ALERTS</TabsTrigger>

@@ -298,8 +298,8 @@ export function CitizenManagement() {
         })}
       </div>
 
-      <Tabs defaultValue="citizens" className="space-y-6">
-        <TabsList className="grid w-full grid-cols-2">
+      <Tabs defaultValue="citizens" className="space-y-6 ">
+        <TabsList className="grid w-full grid-cols-2 tabBg">
           <TabsTrigger value="citizens">CITIZEN REGISTRY</TabsTrigger>
           <TabsTrigger value="verification">VERIFICATION QUEUE</TabsTrigger>
         </TabsList>

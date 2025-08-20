@@ -343,7 +343,7 @@ export function ApiAccessLogs() {
       </div>
 
       <Tabs defaultValue="logs" className="space-y-6">
-        <TabsList className="grid w-full grid-cols-4">
+        <TabsList className="grid w-full grid-cols-4 tabBg">
           <TabsTrigger value="logs">ACCESS LOGS</TabsTrigger>
           <TabsTrigger value="endpoints">ENDPOINTS</TabsTrigger>
           <TabsTrigger value="keys">API KEYS</TabsTrigger>

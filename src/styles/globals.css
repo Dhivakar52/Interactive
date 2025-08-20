@@ -657,6 +657,15 @@ select {
     background-color: white !important;
 
   }
+.tabBg {
+    background-color: #ddd !important;
+
+  }
+    .tabBg > [data-state="active"] {
+    background-color: white !important;
+    margin:0px 30px !important;
+
+  }
   [role="listbox"],[role="menuitem"]{
      background-color: white !important;
        position: relative !important;

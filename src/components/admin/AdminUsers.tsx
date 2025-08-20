@@ -392,7 +392,7 @@ export function AdminUsers() {
       </div>
 
       <Tabs defaultValue="users" className="space-y-6">
-        <TabsList className="grid w-full grid-cols-3">
+        <TabsList className="grid w-full grid-cols-3 tabBg">
           <TabsTrigger value="users">ADMIN USERS</TabsTrigger>
           <TabsTrigger value="roles">ROLES & PERMISSIONS</TabsTrigger>
           <TabsTrigger value="activity">ACTIVITY LOG</TabsTrigger>
